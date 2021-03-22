@@ -28,7 +28,7 @@ for j,i in enumerate(listt):
     f.write(str(ifram)+'\n')
     f.close()
 
-dff = df.iloc[:-20,:].copy()
+
 df[["iframe"]] = final
 df.to_csv('iframe.csv')
 
